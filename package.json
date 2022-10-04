@@ -1,0 +1,13 @@
+{
+  "name": "microlite",
+  "version": "0.0.0",
+  "private": true,
+  "description": "testmicrolite",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=16.17.1"
+  },
+  "cacheDirectories": [
+    "node_modules"
+  ]
+}
