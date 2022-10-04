@@ -6,8 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 import org.junit.jupiter.api.DisplayNameGeneration;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.boot.test.context.SpringBootTest;
 
+@WithMockUser
 @Target(ElementType.TYPE)
 @Retention(RetentionPolicy.RUNTIME)
 @DisplayNameGeneration(ReplaceCamelCase.class)
