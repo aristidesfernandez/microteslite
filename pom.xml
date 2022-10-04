@@ -33,6 +33,7 @@
     <kafka-clients.version>3.2.0</kafka-clients.version>
     <reflections.version>0.10.2</reflections.version>
     <liquibase.version>4.16.1</liquibase.version>
+    <springdoc-openapi.version>1.6.11</springdoc-openapi.version>
   </properties>
 
   <dependencyManagement>
@@ -126,6 +127,12 @@
       <groupId>org.liquibase</groupId>
       <artifactId>liquibase-core</artifactId>
       <version>${liquibase.version}</version>
+    </dependency>
+
+    <dependency>
+      <groupId>org.springdoc</groupId>
+      <artifactId>springdoc-openapi-ui</artifactId>
+      <version>${springdoc-openapi.version}</version>
     </dependency>
 
     <dependency>
