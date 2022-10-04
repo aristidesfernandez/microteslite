@@ -51,6 +51,7 @@ docker compose -f src/main/docker/postgresql.yml up -d
 - [Apache Kafka](documentation/apache-kafka.md)
 - [CORS configuration](documentation/cors-configuration.md)
 - [Jpa pages](documentation/jpa-pages.md)
+- [Rest pagination](documentation/rest-pagination.md)
 
 <!-- jhipster-needle-documentation -->
 
