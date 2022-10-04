@@ -153,5 +153,16 @@
       "endOfLine" : "if",
       "indentSize" : 2
     }
+  }, {
+    "module" : "jpa-pagination",
+    "date" : "2022-10-04T16:55:33.793561120Z",
+    "properties" : {
+      "packageName" : "co.com.ies",
+      "projectName" : "testmicrolite",
+      "baseName" : "microlite",
+      "serverPort" : 8080,
+      "endOfLine" : "if",
+      "indentSize" : 2
+    }
   } ]
 }
