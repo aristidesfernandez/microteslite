@@ -32,6 +32,7 @@
     <testcontainers.version>1.17.3</testcontainers.version>
     <kafka-clients.version>3.2.0</kafka-clients.version>
     <reflections.version>0.10.2</reflections.version>
+    <liquibase.version>4.16.1</liquibase.version>
   </properties>
 
   <dependencyManagement>
@@ -122,6 +123,12 @@
     </dependency>
 
     <dependency>
+      <groupId>org.liquibase</groupId>
+      <artifactId>liquibase-core</artifactId>
+      <version>${liquibase.version}</version>
+    </dependency>
+
+    <dependency>
       <groupId>com.tngtech.archunit</groupId>
       <artifactId>archunit-junit5-api</artifactId>
       <version>${archunit-junit5.version}</version>
@@ -145,6 +152,12 @@
       <groupId>org.reflections</groupId>
       <artifactId>reflections</artifactId>
       <version>${reflections.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>com.h2database</groupId>
+      <artifactId>h2</artifactId>
       <scope>test</scope>
     </dependency>
   </dependencies>
